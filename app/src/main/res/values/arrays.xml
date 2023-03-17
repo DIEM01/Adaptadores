@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="vistas">
+        <item>ListView</item>
+        <item>GridView</item>
+        <item>RecyclerView</item>
+        <item>GridPersonalizado</item>
+        <item>CardView</item>
+
+    </string-array>
+    <string-array name="autos">
+        <item>Audi</item>
+        <item>BMW</item>
+        <item>Chrysler</item>
+        <item>Ferrari</item>
+        <item>Ford</item>
+        <item>GM</item>
+        <item>Lamborghini</item>
+        <item>Lotus</item>
+        <item>Mazda</item>
+        <item>Mercedez-Benz</item>
+        <item>Nissan</item>
+        <item>Peugeot</item>
+        <item>Porche</item>
+        <item>Renault</item>
+        <item>Susuki</item>
+        <item>Toyota</item>
+        <item>Volkswagen</item>
+
+    </string-array>
+
+</resources>

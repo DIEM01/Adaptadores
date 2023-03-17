@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Adaptadores</string>
+    <string name="seleccionar">Seleccione una vista</string>
+    <string name="imagen_auto">Imagen del auto</string>
+    <string name="marca">Marca</string>
+    <string name="modelo">Modelo</string>
+    <string name="precio">Precio</string>
+
+</resources>

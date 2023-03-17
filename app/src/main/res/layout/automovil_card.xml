@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="84dp"
+    android:orientation="vertical"
+    android:layout_margin="2dp"
+    app:cardBackgroundColor="#49A9F6"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="2dp"
+    app:contentPadding="2dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@mipmap/ic_auto"
+            android:contentDescription="@string/imagen_auto"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginEnd="8dp"
+            android:background="#FF9800"
+            android:id="@+id/imagen"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/marca"
+            android:textSize="16sp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="30dp"
+            android:id="@+id/marca"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/modelo"
+            android:textSize="14sp"
+            app:layout_constraintTop_toBottomOf="@id/marca"
+            app:layout_constraintRight_toRightOf="@id/marca"
+            app:layout_constraintLeft_toLeftOf="@id/marca"
+            android:layout_marginTop="4dp"
+            android:id="@+id/modelo"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/precio"
+            android:textSize="12sp"
+            app:layout_constraintTop_toBottomOf="@id/modelo"
+            app:layout_constraintRight_toRightOf="@id/modelo"
+            app:layout_constraintLeft_toLeftOf="@id/modelo"
+            android:layout_marginTop="4dp"
+            android:id="@+id/precio"
+            />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.cardview.widget.CardView>
